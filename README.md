@@ -93,20 +93,20 @@
 
 ### **PROJECT CONTRIBUTIONS**
   - **Sudip Mahato** (PUR081BCT087)
-  - File handling part (to store previous reports)
-  - Merge and execute all the parts to give a finishing touch.
+   File handling part (to store previous reports)
+   Merge and execute all the parts to give a finishing touch.
 
     
   - **Samundra Pariyar** (PUR081BCT071)
-  - Structure part (to display doctors list)
-  - Project ideas
+   Structure part (to display doctors list)
+   Project ideas
 
     
   - **Rupak Subba** (PUR081BCT063)
-  - User defined functions for disease specification
-  - User menue
+   User defined functions for disease specification
+   User menue
 
     
   - **Sayesh Dhakal** (PUR081BCT080)
-  - User defiend fuctions for diagnosis
-  - Project designes
+    User defiend fuctions for diagnosis
+    Project designes

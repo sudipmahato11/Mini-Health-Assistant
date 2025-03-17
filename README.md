@@ -1,5 +1,7 @@
  ### **MINI HEALTH ASSISTANT**
 
+### **TEAM TECH TITANS**
+
 ### **C-Programming Final Project**
 
 ### **This project is developed as part of the BCT 2081 course by the following team members:**

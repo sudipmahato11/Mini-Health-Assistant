@@ -89,11 +89,6 @@
    - **Option 2:** Display previous health data from the file.
    - **Option 3:** View details of available doctors.
 
----
-
-Here’s a well-organized version of your project contributions:  
-
----
 
 ### **PROJECT CONTRIBUTIONS**  
 

@@ -60,10 +60,6 @@ This project is developed as part of the BCT 2081 course by the following team m
 - The program will terminate after displaying the requested information.  
 - To restart, rerun the executable file (`./medical_diagnosis`). 
 
-### **Overview of the Code**
-This C program functions as a basic medical diagnosis and consultation system. It allows users to enter their symptoms, receive a diagnosis, view health instructions, get medicine prescriptions, and consult doctors.
-
----
 
 ### **ABOUT THE PROGRAM**
 

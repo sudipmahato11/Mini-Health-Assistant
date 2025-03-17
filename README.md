@@ -1,8 +1,8 @@
-MINI HEALTH ASSISTANT
+ ### **MINI HEALTH ASSISTANT**
 
-C-Programming Final Project
+### **C-Programming Final Project**
 
-This project is developed as part of the BCT 2081 course by the following team members:
+### **This project is developed as part of the BCT 2081 course by the following team members:**
   - **Sudip Mahato** (PUR081BCT087)  
   - **Samundra Pariyar** (PUR081BCT071)  
   - **Rupak Subba** (PUR081BCT063)  

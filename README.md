@@ -3,12 +3,10 @@ MINI HEALTH ASSISTANT
 C-Programming Final Project
 
 This project is developed as part of the BCT 2081 course by the following team members:
--Sudip Mahato(PUR081BCT087)
--Samundra Pariyar(PUR081BCT071)
--Rupak Subba(PUR081BCT063)
--Sayesh Dhakal(PUR081BCT080)
-
-HOW TO USE:
+  - **Sudip Mahato** (PUR081BCT087)  
+  - **Samundra Pariyar** (PUR081BCT071)  
+  - **Rupak Subba** (PUR081BCT063)  
+  - **Sayesh Dhakal** (PUR081BCT080)  
 
 ### **Stepwise Process to Run and Use the Medical Diagnosis Program**  
 
@@ -24,14 +22,7 @@ HOW TO USE:
   ./medical_diagnosis
   ```
 
-#### **2. Enter the Current Date**  
-- The program will prompt:  
-  ```
-  Enter today's date:
-  ```
-- Type the date (e.g., `11-03-2025`) and press **Enter**.
-
-#### **3. Choose an Option from the Menu**  
+#### **2. Choose an Option from the Menu**  
 - The program will display:  
   ```
   1. Enter new health data  
@@ -41,7 +32,15 @@ HOW TO USE:
   ```
 - Enter the number corresponding to your choice.
 
-#### **4. If You Choose Diagnosis (Option 1)**  
+#### **3. If You Choose Diagnosis (Option 1)**  
+
+#### ** Enter the Current Date**  
+- The program will prompt:  
+  ```
+  Enter today's date:
+  ```
+- Type the date (e.g., `11-03-2025`) and press **Enter**.
+- 
 - The system displays symptom categories (Fever, Stomach Ache, High/Low Blood Pressure, Diabetes).  
 - Select a category by entering the corresponding letter (e.g., `a` for Fever).  
 - The program provides a diagnosis with health instructions.  
@@ -51,14 +50,47 @@ HOW TO USE:
   ```
 - Enter `y` for medicine recommendations or `n` to exit.
 
-#### **5. If You Choose to View Past Health Data (Option 2)**  
+#### **4. If You Choose to View Past Health Data (Option 2)**  
 - The program retrieves and displays the last recorded health data from `medical_report.txt`.
 
-#### **6. If You Choose Doctor Consultation (Option 3)**  
+#### **5. If You Choose Doctor Consultation (Option 3)**  
 - The system lists available doctors along with their experience, contact details, and hospitals.
 
 #### **7. Exit the Program**  
 - The program will terminate after displaying the requested information.  
-- To restart, rerun the executable file (`./medical_diagnosis`).  
+- To restart, rerun the executable file (`./medical_diagnosis`). 
 
-Let me know if you need further clarification! 🚀
+### **Overview of the Code**
+This C program functions as a basic medical diagnosis and consultation system. It allows users to enter their symptoms, receive a diagnosis, view health instructions, get medicine prescriptions, and consult doctors.
+
+---
+
+### **ABOUT THE PROGRAM**
+
+### **Key Features**
+1. **Symptom-Based Diagnosis:**
+   - The program asks the user about symptoms and suggests possible diagnoses, such as:
+     - Fever
+     - Stomach Ache
+     - High Blood Pressure (HBP)
+     - Low Blood Pressure (LBP)
+     - Diabetes
+
+2. **Health Instructions & Medicine Prescription:**
+   - After diagnosing a condition, the program provides general health instructions.
+   - Users can choose whether they want medicine recommendations.
+
+3. **Medical Report Storage:**
+   - The program stores the user’s health data in a file (`medical_report.txt`).
+   - It allows retrieving past health data.
+
+4. **Doctor Consultation:**
+   - Displays a list of doctors, their experience, contact details, and hospital names.
+   - This is handled using a `struct` to store doctor details.
+
+5. **User Menu Options:**
+   - **Option 1:** Enter new health data (diagnosis and prescriptions).
+   - **Option 2:** Display previous health data from the file.
+   - **Option 3:** View details of available doctors.
+
+---
